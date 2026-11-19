@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: url("../images/desktop/image-header.jpg");
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100dvh;
+    background-size: cover;
+    color: white;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 50px;
+}
+
+nav img {
+    height: 40px;
+
+}
+
+header {
+    width: 100%;
+    position: relative;
+
+}
+
+header ul {
+
+    display: flex;
+
+    list-style: none;
+}
+
+header ul li {
+    padding: 20px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+
+}
+
+.divHeader {
+    display: flex;
+    justify-content: end;
+}
+
+.contact {
+    background-color: white;
+    border-radius: 30px;
+}
+
+.contact:hover {
+    background-color: hsla(232, 10%, 55%, 0.225);
+    transition: 0.5;
+}
+
+.contact a {
+    color: black;
+    font-family: "Fraunces", serif;
+    font-weight: 600;
+}
+
+.contact a:hover {
+    color: white;
+    transition: 0.5;
+}
+
+#center {
+
+    width: auto;
+    text-align: center;
+    margin-top: 210px;
+}
+
+#center h1 {
+    transform: translateY(-100px);
+    font-size: 64px;
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+
+
+}
+
+main img {
+    width: 100%;
+    height: auto;
+
+}
+
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 180px;
+}
+
+.div1 h1 {
+    margin: 0px 0px 30px 0px;
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: hsl(212, 27%, 19%);
+}
+
+.div1 p {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    color: hsl(213, 9%, 39%);
+}
+
+.div1 h2 {
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    margin: 50px 0px 0px 0px;
+    font-size: 15px;
+    color: hsl(212, 27%, 19%);
+}
+
+.div4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 180px 220px 180px 120px;
+}
+
+.div4 h1 {
+    margin: 0px 0px 30px 0px;
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: hsl(212, 27%, 19%);
+}
+
+.div4 p {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    color: hsl(213, 9%, 39%);
+}
+
+.div4 h2 {
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    margin: 50px 0px 0px 0px;
+    font-size: 15px;
+    color: hsl(212, 27%, 19%);
+}
+
+.div5 {
+    position: relative;
+}
+
+.div5 h1 {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    color: hsl(167, 40%, 24%);
+    text-align: center;
+    margin: 0px 0px 40px 0px;
+}
+
+.div5 p {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    color: hsl(167, 40%, 24%);
+    text-align: center;
+}
+
+.div5 div {
+    margin: 400px 210px 0px 200px;
+    position: absolute;
+}
+
+.div6 {
+    position: relative;
+}
+
+.div6 h1 {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    color: hsl(198, 62%, 26%);
+    text-align: center;
+    margin: 0px 0px 40px 0px;
+}
+
+.div6 p {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    color: hsl(198, 62%, 26%);
+    text-align: center;
+}
+
+.div6 div {
+    position: absolute;
+    margin: 400px 210px 0px 200px;
+}
+
+section {
+    height: 600px;
+    margin: 0 120px;
+
+}
+
+#clients {
+    text-align: center;
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    margin: 150px 0px 50px 0px;
+    color: hsl(210, 4%, 67%);
+    font-size: 25px;
+
+}
+
+.emily {
+    text-align: center;
+}
+
+.thomas {
+    text-align: center;
+}
+
+.jennie {
+    text-align: center;
+}
+
+.emily p {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    color: hsl(213, 9%, 39%);
+    margin: 40px 0px 50px 0px;
+}
+
+.emily h1 {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.emily h2 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: hsl(210, 4%, 67%);
+    margin: 10px 0px 0px 0px;
+}
+
+.thomas p {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    color: hsl(213, 9%, 39%);
+    margin: 40px 0px 50px 0px;
+}
+
+.thomas h1 {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.thomas h2 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: hsl(210, 4%, 67%);
+    margin: 10px 0px 0px 0px;
+}
+
+.jennie p {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    color: hsl(213, 9%, 39%);
+    margin: 40px 0px 50px 0px;
+}
+
+.jennie h1 {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.jennie h2 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: hsl(210, 4%, 67%);
+    margin: 10px 0px 0px 0px;
+}
+
+section .container {
+    display: flex;
+}
+
+section .container div {
+    width: auto;
+    height: 500px;
+    padding: 10px;
+    margin: 35px;
+}
+
+#rodape {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+#rodape img {
+    width: 100%;
+    height: auto;
+}
+
+.container img {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+
+footer {
+    height: 400px;
+    background-color: #8FD3C5;
+}
+
+footer ul li a {
+    color: #307768;
+    text-decoration: none;
+    padding: 25px;
+    font-size: 20px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 450;
+}
+
+footer ul li a:hover {
+    color: white;
+    transition: 0.5;
+}
+
+#logo {
+    margin: 50px 0px;
+    height: 50px;
+    width: 200px;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    margin: 0px 0px 80px 0px;
+}
+
+.rodape2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon img {
+    padding: 0px 15px;
+}
